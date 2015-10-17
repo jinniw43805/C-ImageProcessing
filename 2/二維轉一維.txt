@@ -1,0 +1,16 @@
+Fun (Img[], w, h, i ,j )
+{
+//Img : 影像的一維vector 
+// w: 影像寬
+// h: 影像高
+//i: 影像的第I row(橫的)
+//j: 影像的第j Colum(直的)
+// return: 影像在 （I, j)位置的灰階值  
+
+
+// 請把 (I, j) 對應到一維鎮列的位置 k
+k=(i*w)+j
+
+
+   Return Img(k)
+}
